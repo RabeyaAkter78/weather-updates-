@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Updates</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: url(images/bg-image.jpg);
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- class="bg-cover bg-center h-screen" style="background-image: url('your-image-url');" -->
+    <!-- <div class="bg-[url('./images/bg-image.jpg')]"> -->
+    <!-- <img src="./images/bg-image.jpg" alt=""> -->
+
+    <!-- <div class="bg-cover bg-center h-screen" style="background-image: url('./images/bg-image.jpg');"> -->
+
+    <!-- <div class="bg-cover bg-center h-screen bg-[./images/bg-image.jpg] bg-opacity-50 bg-blur-md"></div> -->
+
+    </div>
+
+    </div>
+
+    <div class="container mx-auto flex mt-12 justify-center text-lg ">
+        <input id="search-field" class=" w-2/4  h-9 px-2 rounded border-none" type="search" name="" id=""
+            placeholder="Enter A location for Weather">
+
+        <button id="btn-search" class=" px-2 bg-amber-600 text-white rounded hover:bg-amber-400">search</button>
+    </div>
+
+    <div class="container mx-auto mt-16 flex justify-center items-center">
+        <img id="weather-icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+    </div>
+
+    <div class="container mx-auto text-center text-white  ">
+        <h1 id="city" class="font-semibold text-5xl">City Name</h1>
+        <p class="font-medium text-3xl" id="temp">00.0<span>&deg;C</span></p>
+        <p id="condition" class="font-light text-2xl">Condition</p>
+    </div>
+
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/6c2b1b080d.js" crossorigin="anonymous"></script>
+    <!-- js file -->
+    <script src="js/index.js"></script>
+</body>
+
+<!-- https://redpixelthemes.com/blog/tailwindcss-background-image/
+
+https://tailwind-elements.com/docs/standard/navigation/navbar/ -->
+
+
+</html>
